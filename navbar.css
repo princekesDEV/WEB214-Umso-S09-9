@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(10, 11, 15);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#navbar{
+    background-color: rgb(10, 11, 15);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+#nav-logo{
+    width: 13%;
+    flex-grow: 28;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    flex-grow: 1;
+}
+
+
+.nav-btn{
+    color: white;
+    background-color: transparent;
+    padding: 13px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(50, 50, 50);
+    margin-left: 10px;
+    font-weight: 600;
+}
