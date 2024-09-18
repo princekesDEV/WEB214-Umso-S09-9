@@ -23,21 +23,21 @@
   text-align: center;
   position: relative;
   width: 40%;
-  margin: 70px auto;
+  margin: 70px auto 20px auto;
 }
 
-#search-input{
-    width: 100%;
-    padding: 20px 0px 20px 20px;
-    /* border-radius: 50px; */
-    border: 2px solid;
-    border-image: linear-gradient(to right,  #530ae8, rgb(123, 16, 255)) 1;
-    outline: none;
-    font-size: 20px;
+#search-input {
+  width: 100%;
+  padding: 20px 0px 20px 20px;
+  /* border-radius: 50px; */
+  border: 2px solid;
+  border-image: linear-gradient(to right, #530ae8, rgb(123, 16, 255)) 1;
+  outline: none;
+  font-size: 20px;
 }
 
-#search-input:focus{
-    box-shadow: 0 0 15px 5px rgba(123, 16, 255, 0.6);
+#search-input:focus {
+  box-shadow: 0 0 15px 5px rgba(123, 16, 255, 0.6);
 }
 
 #generate-btn {
